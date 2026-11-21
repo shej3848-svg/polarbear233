@@ -11,7 +11,7 @@ st.title("✅ Streamlit 연결 테스트")
 
 st.write("이 화면이 보이면 GitHub와 Streamlit이 정상적으로 연결되었습니다.")
 
-st.divider()s
+st.divider()
 
 st.write("⏰ 현재 시간 (한국 시간):")
 st.write(datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d %H:%M:%S"))
